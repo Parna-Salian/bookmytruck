@@ -27,7 +27,7 @@
                    <!-- Left Side Of Navbar -->
                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/index">{{ __('Marketplace')}}<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/marketplace">{{ __('Marketplace')}}<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="/bloghome">About<span class="sr-only">(current)</span></a>
