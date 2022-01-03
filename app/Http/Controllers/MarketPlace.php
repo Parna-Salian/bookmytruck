@@ -10,4 +10,8 @@ class MarketPlace extends Controller
     {
         return view("marketplace");
     }
+    public function enquiry()
+    {
+        return view("shipper.enquiry");
+    }
 }

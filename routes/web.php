@@ -14,4 +14,6 @@ use App\Http\Controllers\MarketPlace;
     Route::get('/marketplace', 'MarketPlace@index')->name('marketplace');
     
     Route::view('/index', 'home');
+
+    Route::get('/shipper', 'MarketPlace@enquiry')->name('shipper');
  

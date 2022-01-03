@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <button class="btn btn-outline-primary">I'm Shipper/Owner</button>
+                    <button class="btn btn-outline-primary" onclick="window.location='{{route("shipper")}}'">I'm Shipper/Owner</button>
                 </li>
                 <li class="nav-item active">
                     <button class="btn btn-outline-primary">I'm truck owner</button>
